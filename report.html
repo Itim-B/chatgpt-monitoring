@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <title>ChatGPT - Principes, résultats, aspects éthiques, perspectives</title>
+</head>
+<body>
+    <div class="headerBloc"><h1>ChatGPT</h1><p>Principes, résultats, aspects éthiques, perspectives</p></div>
+    
+    <div class="ldv">
+        <p>
+            ChatGPT est un outil conversationnel textuel puissant et pratique qui a été développé par OpenAI, disponible (pour sa version 3.5 actuelle) gratuitement sur le web pour discuter de toutes sortes de sujets. <br/>
+            Cet outil est utilisé par des millions de personnes dans le monde entier, et est par ailleurs l'application pour le grand public ayant connu la croissance la plus rapide de l'histoire selon l'étude UBS, avec seulement 5 jours pour atteindre le million d'utilisateurs <span class="source-ref">[1]</span>, contre 2 mois et demi pour Instagrame ou 2 ans pour Twitter.<br/>
+        </p>
+        <img src="pictures/million-user.jpeg" class="centerimg img500"/>
+        <p>
+            ChatGPT utilise pour son fonctionnement une intelligence artificielle poussée qui lui permet de comprendre les questions et les commentaires des utilisateurs, et de fournir des réponses précises et informatives en temps réel.<br/>Il est aussi très flexible et peut être utilisé pour discuter de tout, de questions de cultures générales à d'autres techniques ou scientifiques.
+        </p>
+        <img src="pictures/rma-ucl.png" class="centerimg img800"/>
+        <h2>Un fonctionnement en 3 étapes</h2>
+    </div>
+
+    <div class="sources">
+        <h2>Sources : </h2>
+        <p>[1]: <a href="https://www.01net.com/actualites/chatgpt-vient-de-battre-un-incroyable-record-de-popularite.html">https://www.01net.com/actualites/chatgpt-vient-de-battre-un-incroyable-record-de-popularite.html</a></p>
+    </div>
+
+    <script>
+        const sourcesRefs = document.querySelectorAll('.source-ref');
+
+        const firstSource = document.querySelector('.sources');
+
+        sourcesRefs.forEach((ref) => {
+            ref.addEventListener('click', () => {
+                firstSource.scrollIntoView({ behavior: 'smooth' });
+            });
+        });
+
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,118 @@
+:root {
+    --header: #a2a8d3;
+    --headerColor: white; 
+    --titles: #38598b;
+}
+
+body {
+    margin: 0;
+    font-size: 18px;
+}
+
+.headerBloc {
+    text-align: center;
+    background-color: var(--header);
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.headerBloc h1 {
+    font-size: 1.6em;
+    font-weight: bold;
+    color: var(--headerColor);
+}
+
+.headerBloc p {
+    font-size: 1.3em;
+    color: var(--headerColor);
+    font-weight: bold;
+}
+
+.ldv {
+    width: 70%;
+    max-width: 1300px;
+    margin: auto;
+}
+
+.ldv p {
+    font-size: 18px;
+    line-height: 1.5em;
+    text-indent: 15px;
+}
+
+.ldv h2 {
+    text-align: center;
+    color: var(--titles);
+    font-size: 1.3em;
+}
+
+.ldv .source-ref {
+    color: #0000EE; 
+    cursor: pointer;
+}
+
+.centerimg {
+    display: block;
+    margin: auto;
+}
+
+.img200 {
+    max-width: 200px;
+}
+
+.img300 {
+    max-width: 300px;
+}
+
+.img400 {
+    max-width: 400px;
+}
+
+.img500 {
+    max-width: 500px;
+}
+
+.img600 {
+    max-width: 600px;
+}
+
+.img700 {
+    max-width: 700px;
+}
+
+.img800 {
+    max-width: 800px;
+}
+
+.img900 {
+    max-width: 900px;
+}
+
+.img1000 {
+    max-width: 1000px;
+}
+
+.sources {
+    width: 60%;
+    max-width: 1100px;
+    margin: auto;
+}
+
+.sources h2 {
+    color: var(--titles);
+    font-size: 1.1em;
+}
+
+.sources p {
+    font-size: 0.8em;
+}
+
+@media screen and (max-width: 1200px) {
+    .ldv {
+        width: 95%;
+    }
+
+    .sources {
+        width: 90%;
+    }
+}
